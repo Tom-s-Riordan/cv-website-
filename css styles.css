@@ -1,0 +1,378 @@
+body {
+  background-color: #e1d7c6;
+  color: #7d6e83;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0;
+
+  text-align: center;
+}
+
+h1 {
+  color: #0f605c;
+  font-size: 90px;
+  font-family: explora;
+  margin: 0 auto 0 auto;
+}
+
+h2 {
+  font-weight: lighter;
+  color: #1c484a;
+  margin: 0px auto 0 auto;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 23px;
+}
+hr {
+  width: 30%;
+  margin: auto;
+}
+h3 {
+  font-weight: lighter;
+  color: #1c484a;
+  margin: 0px auto 0 auto;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 23px;
+}
+
+p {
+  padding-bottom: 10px;
+}
+font-family: "Sue Ellen Francisco", cursive;
+/****************containers*********************/
+.bottom-con {
+  position: relative;
+  background-color: #e1d7c6;
+}
+.container-fluid {
+  padding: 3% 0 0 0;
+}
+
+.Circle-Top {
+  position: relative;
+  padding-top: 10px;
+  background-color: #86b3be;
+}
+
+.top-con {
+  position: relative;
+  padding-top: 0px;
+  background-color: #86b3be;
+}
+#top-con {
+  background-image: none;
+}
+
+.middle-con {
+  position: relative;
+  background-color: #e1d7c6;
+  padding: 30px;
+}
+
+.RR-top {
+  position: relative;
+  margin: 0;
+  background-color: #ece8dd;
+}
+
+/****************images************************/
+.Absoultion-Poster {
+  width: 15%;
+  float: left;
+  padding-right: 15px;
+}
+.BR-poster {
+  width: 15%;
+  float: left;
+  padding-right: 15px;
+}
+.bg {
+  background-image: url(images/light-tunnel-2.jpeg);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-image {
+  background-image: url(images/light-tunnel.png);
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.circleltd {
+  width: 18%;
+  float: left;
+  padding-right: 15px;
+}
+
+.claw {
+  margin-top: 20px;
+  width: 300px;
+}
+.FGposter {
+  width: 23%;
+}
+.FastGame-Poster {
+  width: 15%;
+  float: left;
+  padding-right: 15px;
+}
+
+.mouse {
+  position: fixed;
+  right: 100px;
+  bottom: 54px;
+  width: 11%;
+}
+
+.mouse2 {
+  position: absolute;
+  left: 15px;
+  top: 18x;
+  width: 11%;
+}
+.PPP-logo {
+  width: 18%;
+  float: left;
+  padding-right: 15px;
+}
+#RR-logo-2 {
+  position: absolute;
+  left: 15px;
+  top: 24px;
+  width: 08%;
+}
+.RR-logoblack {
+  width: 20%;
+  float: left;
+  padding-right: 15px;
+}
+.skills-img {
+  width: 100%;
+}
+
+.tom-hs1 {
+  width: 28%;
+}
+
+.Tom-p12 {
+  width: 26%;
+  float: left;
+  padding-right: 15px;
+}
+
+.TN-poster {
+  width: 15%;
+  float: left;
+  padding-right: 15px;
+}
+
+/******************divs-and-sections*******************/
+a {
+  color: #87644c;
+  font-family: "montserrat", sans-serif;
+  margin: 10px;
+  text-decoration: none;
+}
+.absoultion {
+  line-height: 2;
+  text-align: left;
+  margin: 50px auto 30px;
+  width: 50%;
+}
+.BR {
+  line-height: 2;
+  text-align: left;
+  margin: 50px auto 30px;
+  width: 50%;
+}
+.contact-me {
+  background-color: #e1d7c6;
+  width: 100%;
+  margin: 40px auto 60px;
+}
+.FastGame {
+  line-height: 2;
+  text-align: left;
+  margin: 50px auto 30px;
+  width: 50%;
+}
+.plate {
+  color: hotpink;
+  background: #000;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.ppp-Bottom {
+  line-height: 2;
+  text-align: center;
+  margin: 50px auto 30px;
+  width: 50%;
+}
+.PPP-Top {
+  line-height: 2;
+  text-align: left;
+  margin: 50px auto 30px;
+  width: 50%;
+}
+.RR-Page-row {
+  line-height: 2;
+  text-align: left;
+  margin: 20px auto 20px;
+  width: 50%;
+}
+.rr-stuff {
+  clear: right;
+  margin-top: 20px;
+}
+.rr-stuff {
+  line-height: 2;
+  text-align: left;
+  margin: 50px auto 30px;
+  width: 50%;
+}
+.skills {
+  background-color: #e1d7c6;
+  line-height: 2;
+  text-align: center;
+  margin: 0;
+
+  width: 100%;
+}
+
+.skill-row {
+  line-height: 2;
+  text-align: left;
+  margin: 20px auto 20px;
+  width: 50%;
+}
+
+.triple {
+  line-height: 2;
+  text-align: left;
+  margin: 50px auto 30px;
+  width: 50%;
+}
+
+.The-circle {
+  line-height: 2;
+  text-align: left;
+  margin: 20px auto 20px;
+  width: 50%;
+}
+
+/* buttons and icons */
+
+a:hover {
+  color: #474238;
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn {
+  background: #474238;
+  background-image: -webkit-linear-gradient(top, #90846d, #eb0c0c);
+  background-image: -moz-linear-gradient(top, #1aee07, #0ceb6d);
+
+  background-image: -ms-linear-gradient(top, #9ecb91, #eb0cbe);
+
+  background-image: -o-linear-gradient(top, #900f0f, #ebbe0c);
+  background-image: linear-gradient(to bottom, #86b3be, #105769);
+  -webkit-border-radius: 02;
+  -moz-border-radius: 02;
+  border-radius: 028px;
+  font-family: "montserrat";
+  color: #150b0b;
+  font-size: 15px;
+
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #e6aa12;
+  background-image: -webkit-linear-gradient(top, #e6aa12, #9d7f34);
+  background-image: -moz-linear-gradient(top, #e6aa12, #aa8b3e);
+  background-image: -ms-linear-gradient(top, #e6aa12, #a38844);
+  background-image: -o-linear-gradient(top, #e6aa12, #957d40);
+  background-image: linear-gradient(to bottom, #e6aa12, #978350);
+  text-decoration: none;
+}
+/* carousel-section */
+
+.accordian {
+  width: 805px;
+  height: 320px;
+  overflow: hidden;
+
+  /*Time for some styling*/
+  margin: 100px auto;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+/*A small hack to prevent flickering on some browsers*/
+.accordian ul {
+  width: 1200px;
+  /*This will give ample space to the last item to move
+	instead of falling down/flickering during hovers.*/
+}
+
+.accordian li {
+  position: relative;
+  display: block;
+  width: 160px;
+  float: left;
+
+  border-left: 1px solid #888;
+
+  box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+
+  /*Transitions to give animation effect*/
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  /*If you hover on the images now you should be able to 
+	see the basic accordian*/
+}
+
+/*Reduce with of un-hovered elements*/
+.accordian ul:hover li {
+  width: 40px;
+}
+/*Lets apply hover effects now*/
+/*The LI hover style should override the UL hover style*/
+.accordian ul li:hover {
+  width: 640px;
+}
+
+.accordian li img {
+  display: block;
+}
+
+/*Image title styles*/
+.image_title {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 640px;
+}
+.image_title a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 16px;
+}
+.footer-link {
+  font-family: monseratt;
+  color: #1c484a;
+}
