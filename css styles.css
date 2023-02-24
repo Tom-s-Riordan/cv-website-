@@ -77,12 +77,12 @@ font-family: "Sue Ellen Francisco", cursive;
 
 /****************images************************/
 .Absoultion-Poster {
-  width: 15%;
+  width: 25%;
   float: left;
   padding-right: 15px;
 }
 .BR-poster {
-  width: 15%;
+  width: 25%;
   float: left;
   padding-right: 15px;
 }
@@ -111,11 +111,9 @@ font-family: "Sue Ellen Francisco", cursive;
   margin-top: 20px;
   width: 300px;
 }
-.FGposter {
-  width: 23%;
-}
+
 .FastGame-Poster {
-  width: 15%;
+  width: 25%;
   float: left;
   padding-right: 15px;
 }
@@ -164,7 +162,7 @@ font-family: "Sue Ellen Francisco", cursive;
 }
 
 .TN-poster {
-  width: 15%;
+  width: 25%;
   float: left;
   padding-right: 15px;
 }
