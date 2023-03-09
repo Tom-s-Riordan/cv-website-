@@ -381,3 +381,6 @@ a:hover {
   font-family: monseratt;
   color: #1c484a;
 }
+.skills-img:hover{
+  transform:scale(1.1);
+}
