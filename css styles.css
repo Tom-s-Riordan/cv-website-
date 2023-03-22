@@ -5,22 +5,15 @@ body {
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 0;
-
   text-align: center;
 }
 
-h1 {
-  color: #0f605c;
-  font-size: 90px;
-  font-family: explora;
-  margin: 0 auto 0 auto;
-}
 
 h2 {
   font-weight: lighter;
   color: #1c484a;
   margin: 0px auto 0 auto;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Montserrat, Times New Roman", Times, serif;
   font-size: 23px;
 }
 hr {
@@ -36,6 +29,7 @@ h3 {
 }
 
 p {
+	font-family: "Montserrat", cursive;}
   padding-bottom: 10px;
 }
 font-family: "Sue Ellen Francisco", cursive;
@@ -59,9 +53,6 @@ font-family: "Sue Ellen Francisco", cursive;
   padding-top: 0px;
   background-color: #86b3be;
 }
-#top-con {
-  background-image: none;
-}
 
 .middle-con {
   position: relative;
@@ -73,6 +64,22 @@ font-family: "Sue Ellen Francisco", cursive;
   position: relative;
   margin: 0;
   background-color: #ece8dd;
+}
+.test-grid {
+  display: grid;
+  gap: 1.5 rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-block:2rem;
+  width:min(95%,70rem);
+  margin-inline:auto ;
+}
+.test-grid-2 {
+  display: grid;
+  gap: 1.5 rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-block:2rem;
+  width:min(95%,70rem);
+  margin-inline:auto ;
 }
 
 /****************images************************/
@@ -181,12 +188,7 @@ a {
   margin: 10px;
   text-decoration: none;
 }
-.absoultion {
-  line-height: 2;
-  text-align: left;
-  margin: 50px auto 30px;
-  width: 50%;
-}
+
 .BR {
   line-height: 2;
   text-align: left;
@@ -211,18 +213,7 @@ a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5px;
 }
-.ppp-Bottom {
-  line-height: 2;
-  text-align: center;
-  margin: 50px auto 30px;
-  width: 50%;
-}
-.PPP-Top {
-  line-height: 2;
-  text-align: left;
-  margin: 50px auto 30px;
-  width: 50%;
-}
+
 .RR-Page-row {
   line-height: 2;
   text-align: left;
@@ -255,19 +246,13 @@ a {
   width: 50%;
 }
 
-.triple {
-  line-height: 2;
-  text-align: left;
-  margin: 50px auto 30px;
-  width: 50%;
-}
-
 .The-circle {
   line-height: 2;
   text-align: left;
   margin: 20px auto 20px;
   width: 50%;
 }
+.topContainer{height: 300px;width: 100%; background-color: #000; margin: 0;}
 
 /* buttons and icons */
 
