@@ -58,6 +58,8 @@ font-family: "Sue Ellen Francisco", cursive;
   position: relative;
   padding-top: 0px;
   background-color: #86b3be;
+	height:300px;
+	width:100%;
 }
 
 .middle-con {
